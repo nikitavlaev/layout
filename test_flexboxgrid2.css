@@ -1,0 +1,15 @@
+.row {
+  box-sizing: border-box;
+  background-color: aquamarine
+}
+.card {
+  box-sizing: border-box;
+  background-color: blueviolet;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
+.lesser-card {
+  box-sizing: border-box;
+  background-color: red;
+  
+}

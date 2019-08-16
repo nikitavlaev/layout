@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+.fire  {
+  list-style-image: url(https://i.ibb.co/CKT3Rd6/fire.png);
+}
+
+
+
+header{
+    background-color: #FD739C;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+  line-height: 0px;
+}
+
+nav {
+  background-color: #FD739C;
+  color: white;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+  font-size: 22px;
+  line-height: 34px;
+  padding-top: 40px;
+}
