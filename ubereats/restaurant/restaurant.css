@@ -1,0 +1,373 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 320px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container {
+    width: 1124px;
+  }
+}
+
+.block-with-centered-content {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+
+.back-mobile {
+  display: block;
+}
+
+.back-tablet {
+  display: none;
+}
+
+.back-desktop {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .back-mobile {
+    display: none;
+  }
+  .back-tablet {
+    display: block;
+  }
+  .back-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .back-mobile {
+    display: none;
+  }
+  .back-tablet {
+    display: none;
+  }
+  .back-desktop {
+    display: block;
+  }
+}
+
+.rest-info {
+  position: absolute;
+  left: 8px;
+  top: 203px;
+  width: 308px;
+  height: 180px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+}
+
+.rest-info p1 {
+  display: block;
+  height: 28px;
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.rest-info p2 {
+  display: block;
+  height: 16px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #626262;
+  margin: 40px 0px 0px 0px;
+}
+
+.del-time {
+  margin: 16px 0px 0px 105px;
+  width: 98px;
+  height: 32px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #262626;
+  border-radius: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .rest-info {
+    top: 152px;
+    width: 432px;
+    height: 204px;
+    text-align: left;
+  }
+  .rest-info p1 {
+    height: 42px;
+    margin-top: 38px;
+    margin-left: 48px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .rest-info p2 {
+    float: left;
+    margin: 62px 0px 0px 48px;
+  }
+  .del-time {
+    float: left;
+    margin: 54px 0px 0px 105px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .rest-info {
+    left: 81px;
+    width: 389px;
+    height: 204px;
+  }
+  .rest-info p2 {
+    margin: 62px 0px 0px 38px;
+  }
+  .del-time {
+    margin: 54px 0px 0px 105px;
+  }
+}
+
+nav {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  nav {
+    display: block;
+    width: 768px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+  }
+  nav ul {
+    list-style-type: none;
+    padding-left: 8px;
+    margin-top: 32px;
+  }
+  nav li {
+    margin-right: 40px;
+    display: inline;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+  }
+  nav .chosen-li {
+    color: #327430;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  nav {
+    width: 1124px;
+  }
+  nav ul {
+    padding-left: 81px;
+  }
+}
+
+.meals {
+  height: auto;
+  width: 320px;
+  padding-bottom: 8px;
+}
+
+.meals-header {
+  padding-top: 111px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.straight-line {
+  margin: 12px 0px 0px 135px;
+  width: 50px;
+  height: 1px;
+  background: #757575;
+}
+
+@media screen and (min-width:768px) {
+  .meals {
+    height: auto;
+    width: 752px;
+    padding-bottom: 16px;
+  }
+  .meals-header {
+    padding-left: 8px;
+    padding-top: 56px;
+    text-align: left;
+  }
+  .straight-line {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .meals {
+    height: auto;
+    width: 1124px;
+    padding-bottom: 80px;
+    background-color: white;
+    padding-left: 73px;
+  }
+}
+
+.row {
+  margin-top: 27px;
+  margin-left: 0px;
+  width: 320px;
+}
+
+@media screen and (min-width:768px) {
+  .row {
+    width: 752px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .row {
+    width: 1124px;
+    margin-top: -17px;
+  }
+}
+
+.card {
+  margin-top: 16px;
+  width: 308px;
+  height: 102px;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.card img {
+  float: left;
+  width: 102px;
+  height: 102px;
+}
+
+@media screen and (min-width:768px) {
+  .card {
+    margin-top: 32px;
+    width: 752px;
+    height: 160px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+  }
+  .chosen-card {
+    mix-blend-mode: normal;
+    background: rgba(117, 117, 117, 0.04);
+  }
+  .card img {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .card {
+    margin-top: 49px;
+    margin-left: 0px;
+    width: 470px;
+    height: 160px;
+  }
+  .card img {
+    width: 170px;
+  }
+  .col-xs-12 {
+    margin-right: 16px;
+  }
+}
+
+.card-text {
+  float: left;
+  width: 206px;
+}
+
+.card-text p1 {
+  width: 172px;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text p2 {
+  margin-top: 4px;
+  display: block;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text p3 {
+  margin-top: 16px;
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width:768px) {
+  .card-text {
+    padding-top: 16px;
+    padding-left: 24px;
+    width: 550px;
+    /*border 1px!!!*/
+  }
+  .card-text p1 {
+    width: auto;
+    font-size: 16px;
+  }
+  .card-text p3 {
+    margin-top: 58px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .card-text {
+    padding-left: 16px;
+    width: 298px;
+    /*border 1px!!!*/
+  }
+}
