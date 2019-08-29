@@ -1,0 +1,19 @@
+.meals__container {
+  padding-top: 27px;
+  padding-left: 0px;
+  width: 320px;
+}
+
+@media screen and (min-width:768px) {
+  .meals__container {
+    width: 752px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .meals__container {
+    width: 1124px;
+    padding-top: -17px;
+  }
+}

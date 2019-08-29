@@ -1,0 +1,28 @@
+.footer-bottom__links {
+  list-style-type: none;
+  margin-top: 40px;
+  padding-left: 0px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  width: 158px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width:768px) {
+  .footer-bottom__links {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-bottom__links {
+    width: 679px;
+  }
+}
+
+.footer-bottom__links * {
+  margin-bottom: 24px;
+}

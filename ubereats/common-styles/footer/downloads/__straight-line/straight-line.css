@@ -1,0 +1,20 @@
+.downloads__straight-line {
+  background-color: white;
+  width: 304px;
+  height: 1px;
+  margin-top: 16px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+@media screen and (min-width:768px) {
+  .downloads__straight-line {
+    width: 752px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .downloads__straight-line {
+    width: 956px;
+  }
+}

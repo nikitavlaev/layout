@@ -1,0 +1,8 @@
+.search-console__straight-line {
+  width: inherit;
+  height: 1px;
+  margin-top: 15px;
+  background-color: #757575;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}

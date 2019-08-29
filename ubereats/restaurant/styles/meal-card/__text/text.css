@@ -1,0 +1,62 @@
+.meal-card__text {
+  float: left;
+  width: 206px;
+}
+
+.meal-card__text-lvl1 {
+  width: 172px;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meal-card__text-lvl2 {
+  margin-top: 4px;
+  display: block;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meal-card__text-lvl3 {
+  margin-top: 16px;
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width:768px) {
+  .meal-card__text {
+    padding-top: 16px;
+    padding-left: 24px;
+    width: 550px;
+    /*border 1px!!!*/
+  }
+  .meal-card__text-lvl1 {
+    width: auto;
+    font-size: 16px;
+  }
+  .meal-card__text-lvl3 {
+    margin-top: 58px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .meal-card__text {
+    padding-left: 16px;
+    width: 298px;
+    /*border 1px!!!*/
+  }
+}

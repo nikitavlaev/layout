@@ -1,0 +1,19 @@
+.footer-middle-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  width: 308px;
+}
+
+@media screen and (min-width:768px) {
+  .footer-middle-container {
+    height: 220px;
+    width: 752px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-middle-container {
+    width: 870px;
+  }
+}

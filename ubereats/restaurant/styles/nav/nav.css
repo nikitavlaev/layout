@@ -1,0 +1,19 @@
+.nav {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .nav {
+    display: block;
+    width: 768px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .nav {
+    width: 1124px;
+  }
+}

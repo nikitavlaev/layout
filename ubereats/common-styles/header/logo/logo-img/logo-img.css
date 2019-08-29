@@ -1,0 +1,9 @@
+.logo-img {
+  height: 13px;
+}
+
+@media screen and (min-width:1200px) {
+  .logo-img {
+    transform: scale(1.13, 1.18);
+  }
+}

@@ -1,0 +1,17 @@
+.footer-middle-container__links-2 {
+  list-style-type: none;
+}
+
+@media screen and (min-width:768px) {
+  .footer-middle-container__links-2 {
+    padding-top: 39px;
+    padding-left: 86px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-middle-container__links-2 {
+    padding-top: 39px;
+    padding-left: 154px;
+  }
+}

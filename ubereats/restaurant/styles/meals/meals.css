@@ -1,0 +1,23 @@
+.meals {
+  height: auto;
+  width: 320px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .meals {
+    height: auto;
+    width: 752px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .meals {
+    height: auto;
+    width: 1124px;
+    padding-bottom: 80px;
+    background-color: white;
+    padding-left: 73px;
+  }
+}

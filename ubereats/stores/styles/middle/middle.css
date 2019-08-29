@@ -1,0 +1,19 @@
+.middle {
+  width: 308px;
+  padding-top: 40px;
+  padding-left: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .middle {
+    width: 752px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .middle {
+    width: 956px;
+    padding-top: 40px;
+    padding-left: 73px;
+  }
+}

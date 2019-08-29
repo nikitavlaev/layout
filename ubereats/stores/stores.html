@@ -1,21 +1,20 @@
 <!doctype html>
-<html>
+<html lang="ru">
 
 <head>
+  <title> Stores </title>
   <meta charset="UTF-8">
+  <meta name="description" content="UberEats stores catalog">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
-  <link rel="stylesheet" href=".\stores.css">
-  <link rel="stylesheet" href="..\header.css">
-  <link rel="stylesheet" href="..\footer.css">
+  <link rel="stylesheet" href="./styles/stores.css">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA3IiBoZWlnaHQ9IjEzIiB2aWV3Qm94PSIwIDAgMTA3IDEzIiBmaWxsPSJu
+  <header class="header">
+    <div class="logo">
+      <img class="logo-img" alt="logotype" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA3IiBoZWlnaHQ9IjEzIiB2aWV3Qm94PSIwIDAgMTA3IDEzIiBmaWxsPSJu
           b25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBpZD0ibG9nbyI+Cjxn
           IGlkPSJYTUxJRF8yMzRfIj4KPHBhdGggaWQ9IlhNTElEXzI0M18iIGQ9Ik04LjMzMjc4IDEuNDY3
           NjdWNy4zMzQ2NUM4LjMzMjc4IDkuMjkwMyA3LjQ4MjQ5IDEwLjA5ODEgNS40NDE4IDEwLjA5ODFD
@@ -114,17 +113,17 @@
           Ljc3NiA0Ljk1MzgzIDEwNS43NzYgOC42OTUwOUMxMDUuNzMzIDEwLjU2NTcgMTA0LjM3MyAxMS44
           ODM3IDEwMS43MzcgMTEuODgzN1oiIGZpbGw9IiM1N0FENTYiIHN0cm9rZT0iIzU3QUQ1NiIgc3Ry
           b2tlLXdpZHRoPSIwLjI1Ii8+CjwvZz4KPC9nPgo8L3N2Zz4K">
-      </div>
+    </div>
 
-      <div class="time-and-address">
-        <div class="time block-with-centered-content">
-          ASAP
-        </div>
-        <div class="to-tablet">
-          to
-        </div>
-        <div class="address">
-          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNCAxNiIgZmlsbD0ibm9u
+    <div class="delivery-options">
+      <div class="delivery-options__time">
+        ASAP
+      </div>
+      <div class="delivery-options__to">
+        to
+      </div>
+      <div class="delivery-options__address">
+        <img class="delivery-options__waypoint" alt="waypoint" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNCAxNiIgZmlsbD0ibm9u
           ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImxvY2F0aW9uIj4K
           PHBhdGggaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0i
           ZXZlbm9kZCIgZD0iTTcgMTUuMjg1OUwxMS4yMzkyIDEwLjk2MzZDMTMuNTg2OSA4LjU2OTg4IDEz
@@ -135,19 +134,19 @@
           IDguNUM4LjEwNDU3IDguNSA5IDcuNjA0NTcgOSA2LjVDOSA1LjM5NTQzIDguMTA0NTcgNC41IDcg
           NC41QzUuODk1NDMgNC41IDUgNS4zOTU0MyA1IDYuNUM1IDcuNjA0NTcgNS44OTU0MyA4LjUgNyA4
           LjVaIiBzdHJva2U9IiMyNjI2MjYiLz4KPC9nPgo8L3N2Zz4K">
-          ul. Bolshaya Dmitrovka,22
-        </div>
+        ul. Bolshaya Dmitrovka,22
       </div>
+    </div>
 
-      <div class="header-button block-with-centered-content sign-in">
-        Sign In
-      </div>
+    <button class="button header__button header__button_sign-in">
+      Sign In
+    </button>
 
-      <div class="header-button block-with-centered-content register">
-        Register
-      </div>
+    <button class="button header__button header__button_register">
+      Register
+    </button>
 
-      <img class="basket" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAxOSAyMyIgZmlsbD0ibm9u
+    <img class="header__basket" alt="basket" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAxOSAyMyIgZmlsbD0ibm9u
       ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImJhc2tldCI+Cjxw
       YXRoIGlkPSJSZWN0YW5nbGUtMTAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVu
       b2RkIiBkPSJNMTguOTQ3NCA2Ljg1ODc2SDBWMTguNjQ4MkMwIDIwLjg1NzQgMS43OTA4OSAyMi42
@@ -164,11 +163,11 @@
       NC41MTMxOCAxMi40NzQyIDQuODQ4OTcgMTIuODEgNS4yNjMxOCAxMi44MUM1LjY3NzQgMTIuODEg
       Ni4wMTMxOCAxMi40NzQyIDYuMDEzMTggMTIuMDZaIiBmaWxsPSIjMjYyNjI2Ii8+CjwvZz4KPC9z
       dmc+Cg==">
-    </div>
   </header>
-  <main>
-    <div class="search-console container">
-      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9u
+  <main class="main">
+    <section class="middle">
+      <div class="search-console">
+        <img class="search-console__lens" alt="lens" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9u
       ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InNlYXJjaCI+Cjxw
       YXRoIGlkPSJTaGFwZSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9
       Ik02LjAzNjM4IDBDOS4zMDkwOCAwIDEyIDIuNjE4MTkgMTIgNS45NjM2MkMxMiA3LjQ5MDkxIDEx
@@ -180,23 +179,23 @@
       IDExLjA1NDQgNS45NjM2NUMxMS4wNTQ0IDMuMTI3MjkgOC43OTk5MyAwLjg3Mjc0MiA1Ljk2MzYy
       IDAuODcyNzQyQzMuMTI3MiAwLjg3Mjc0MiAwLjg3MjY4MSAzLjIwMDAxIDAuODcyNjgxIDUuOTYz
       NjVaIiBmaWxsPSIjMjYyNjI2Ii8+CjwvZz4KPC9zdmc+Cg==">
-      <div class="search-string">
-        Search for restaurant or cuisine
+        <div class="search-console__string">
+          Search for restaurant or cuisine
+        </div>
+        <div class="search-console__straight-line"> </div>
       </div>
-      <div class="straight-line"> </div>
-    </div>
-    <div class="when-to container">
-      <div class="when">
-        When
-      </div>
-      <div class="to-mobile">
-        To
-      </div>
-      <div class="asap block-with-centered-content">
-        ASAP
-      </div>
-      <div class="address-mobile block-with-centered-content">
-        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNCAxNiIgZmlsbD0ibm9u
+      <div class="delivery-options-mobile">
+        <div class="delivery-options-mobile__when">
+          When
+        </div>
+        <div class="delivery-options-mobile__to">
+          To
+        </div>
+        <div class="delivery-options__time  delivery-options-mobile__time">
+          ASAP
+        </div>
+        <div class="delivery-options__address delivery-options-mobile__address">
+          <img class="delivery-options__waypoint" alt="waypoint" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNCAxNiIgZmlsbD0ibm9u
         ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImxvY2F0aW9uIj4K
         PHBhdGggaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0i
         ZXZlbm9kZCIgZD0iTTcgMTUuMjg1OUwxMS4yMzkyIDEwLjk2MzZDMTMuNTg2OSA4LjU2OTg4IDEz
@@ -207,121 +206,158 @@
         IDguNUM4LjEwNDU3IDguNSA5IDcuNjA0NTcgOSA2LjVDOSA1LjM5NTQzIDguMTA0NTcgNC41IDcg
         NC41QzUuODk1NDMgNC41IDUgNS4zOTU0MyA1IDYuNUM1IDcuNjA0NTcgNS44OTU0MyA4LjUgNyA4
         LjVaIiBzdHJva2U9IiMyNjI2MjYiLz4KPC9nPgo8L3N2Zz4K">
-        <div class="address-for-margin">
           ul. Bolshaya Dmitrovka,22
         </div>
       </div>
-    </div>
-    <p>Moscow Restaurants</p>
 
-    <div class="row start-xs">
+      <h1 class="main-title">Moscow Restaurants</h1>
 
-      <div class="col-xs-12 
+      <div class="rest-container row start-xs">
+
+        <div class="col-xs-12 
                     col-md-6
                     col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 
+        <div class="col-xs-12 
                   col-md-6
                   col-xl-4">
-        <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
-          <p1>Макдоналдс — Газетный<br> </p1>
-          <p2>₽₽ • Бургеры<br></p2>
-          <p3>25 - 35 Min </p3>
+          <div class="rest-container__card">
+            <div class="card">
+              <img class="card-img" alt="burger, pie, potatoes"
+                src="https://raw.githubusercontent.com/nikitavlaev/verstka/master/ubereats/stores/pictures/95b745f6ce6a45903c3ed254afd72e46-w550-27.png">
+              <div class="card__txt">
+                <span class="card__txt_lvl1">Макдоналдс — Газетный<br> </span>
+                <span class="card__txt_lvl2">₽₽ • Бургеры<br></span>
+                <span class="card__txt_lvl3">25 - 35 Min </span>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-    </div>
-
+      </div>
+    </section>
   </main>
-  <footer>
-    <div class="white-logo">
-      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMTkyIDIxIiBmaWxsPSJu
+  <footer class="footer">
+    <section class="footer-main">
+      <div class="footer-top">
+        <div class="white-logo">
+          <img class="white-logo__img" alt="ubereats logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMTkyIDIxIiBmaWxsPSJu
       b25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBpZD0id2hpdGUtbG9n
       byI+CjxnIGlkPSJYTUxJRF8yMzRfIj4KPHBhdGggaWQ9IlhNTElEXzI0M18iIGQ9Ik0xNS4wNzY5
       IDEuODQ2MThWMTIuNDYxNkMxNS4wNzY5IDE2IDEzLjUzODQgMTcuNDYxNiA5Ljg0NjEzIDE3LjQ2
@@ -420,12 +456,14 @@
       NTM4NSAxOTEuMzg1IDE0LjkyMzFDMTkxLjMwOCAxOC4zMDc3IDE4OC44NDYgMjAuNjkyMyAxODQu
       MDc3IDIwLjY5MjNaIiBmaWxsPSIjNTdBRDU2IiBzdHJva2U9IiM1N0FENTYiIHN0cm9rZS13aWR0
       aD0iMC4yNSIvPgo8L2c+CjwvZz4KPC9zdmc+Cg==">
-    </div>
-    <div class="straight-line-2"> </div>
-    <div class="footer-main container">
-      <div class="language container">
-        <div class="globe">
-          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9u
+
+          <div class="footer-top__straight-line"> </div>
+        </div>
+      </div>
+      <div class="footer-middle-container">
+        <div class="language-select footer-middle-container__language-select">
+          <div class="language-select__globe">
+            <img alt="globe" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9u
           ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9IndvcmxkIj4KPHBh
           dGggaWQ9IlNoYXBlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0i
           TTExLjExMjEgNS40MjY1MUMxMC42NTA5IDMuMjExMTggOS4yNjMxOCAxLjU0NTI5IDguNDIxMDIg
@@ -447,23 +485,24 @@
           IDE0Ljc0MjIgOC4wMDExQzE0Ljc0MTcgNy4xMTc5MiAxNC41NzAyIDYuMjQzMjkgMTQuMjM2OSA1
           LjQyNTQyTDE0LjM5NDkgNS44NzE3QzE0LjM1MDYgNS44ODc0NSAxMy42ODA4IDYuMTE1MTEgMTIu
           MTY3OCA2LjI5Njc1WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8L3N2Zz4K">
-        </div>
-        <div class="english">
-          ENGLISH
-        </div>
-        <div class="arrow-down">
-          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUi
+          </div>
+          <div class="language-select__english">
+            ENGLISH
+          </div>
+          <div class="language-select__arrow-down">
+            <img class="language-select__arrow-down-img" alt="arrow down" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUi
         IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJpZl9pY29uLWlvczct
         YXJyb3ctYmFja18yMTE2ODYiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik0xLjQxNzUgMEwwIDEuMzQ1
         ODNMNyA4TDE0IDEuMzQ1ODNMMTIuNTgyNSAwTDcgNS4zMDQxN0wxLjQxNzUgMFoiIGZpbGw9Indo
         aXRlIi8+CjwvZz4KPC9zdmc+Cg==">
+          </div>
         </div>
-      </div>
 
-      <div class="social container">
-        <div class="hashtag"> # </div>
-        <div class="ubereats">UberEats</div>
-        <img class="facebook" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
+        <div class="social">
+          <div class="social__hashtag"> # </div>
+          <div class="social__ubereats">UberEats</div>
+          <div class="social__facebook">
+            <img alt="facebook logo" class="facebook" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
         ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImljLzI0L3NvY2lh
         bC9mYWNlYm9vayI+CjxwYXRoIGlkPSJTaGFwZSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1
         bGU9ImV2ZW5vZGQiIGQ9Ik0xOS41IDNINC41QzMuNjYwMDMgMyAzIDMuNjYwMDMgMyA0LjVWMTku
@@ -499,7 +538,9 @@
         MTRDMTUuMDQ1OCA5LjY1NzIzIDE0LjkyODYgOS43NzQyOSAxNC45Mjg2IDkuOTUwMDdWMTEuNDE0
         M0gxNy44NTcyVjE0LjkyODZIMTQuOTI4NlYyMC4yMDAxWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNr
         Pgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjwvZz4KPC9nPgo8L3N2Zz4K">
-        <img class="twitter" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
+          </div>
+          <div class="social__twitter">
+            <img alt="twitter logo" class="twitter" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
         ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImljLzI0L3NvY2lh
         bC90d2l0dGVyIj4KPHBhdGggaWQ9IlNoYXBlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVs
         ZT0iZXZlbm9kZCIgZD0iTTIwLjUzMDMgNi4wOTQ4OUMyMC42NTI1IDYuMDYzNjQgMjAuODA1MyA2
@@ -588,7 +629,9 @@
         NDM0IDE4LjcxMDFDMTQuNDY0NyAxOC43MTAxIDE4LjczNTUgMTMuOTk5MSAxOC43MzU1IDguNzUw
         OVY4LjIzNzg0WiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+
         CjwvZz4KPC9nPgo8L3N2Zz4K">
-        <img class="instagram" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
+          </div>
+          <div class="social__instagram">
+            <img alt="instagram logo" class="instagram" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9u
         ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImljLzI0L3NvY2lh
         bC9pbnN0YWdyYW0iPgo8cGF0aCBpZD0iQ29tYmluZWQgU2hhcGUiIGZpbGwtcnVsZT0iZXZlbm9k
         ZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTYuMDMyNiAzSDcuOTY3MjlDNS4yMjgyNyAzIDMg
@@ -628,46 +671,51 @@
         MyAxNS44NDAxIDkuODgyNTcgMTUuODQwMSAxMkMxNS44NDAxIDE0LjExNzMgMTQuMTE3MyAxNS44
         Mzk3IDEyIDE1LjgzOTdaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFz
         azApIj4KPC9nPgo8L2c+Cjwvc3ZnPgo=">
+          </div>
+        </div>
+
+        <ul class="footer-middle-container__links footer-middle-container__ul">
+          <li class="footer-middle-container__li">About UberEats</li>
+          <li class="footer-middle-container__li">Become a Delivery Partner</li>
+          <li class="footer-middle-container__li"> Become a Restaurant Partner</li>
+        </ul>
+        <ul class="footer-middle-container__links-2 footer-middle-container__ul">
+          <li class="footer-middle-container__li">See all cities</li>
+          <li class="footer-middle-container__li">Pricing</li>
+          <li class="footer-middle-container__li">Help</li>
+          <li class="footer-middle-container__li">FAQs</li>
+        </ul>
       </div>
-      <ul class="links">
-        <li>About UberEats</li>
-        <li>Become a Delivery Partner</li>
-        <li>Become a Restaurant Partner</li>
-      </ul>
-      <ul class="links-2">
-        <li>See all cities</li>
-        <li>Pricing</li>
-        <li>Help</li>
-        <li>FAQs</li>
-      </ul>
-    </div>
-    <div class="straight-line-3"> </div>
-    <div class="downloads container">
-      <div class="app-store">
-        <img
-          src="https://github.com/nikitavlaev/verstka/blob/master/ubereats/stores/pictures/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png?raw=true">
+
+      <div class="downloads">
+        <div class="downloads__straight-line"> </div>
+        <div class="downloads__app-store">
+          <img alt="appstore button" class="appstore"
+            src="https://github.com/nikitavlaev/verstka/blob/master/ubereats/stores/pictures/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png?raw=true">
+        </div>
+        <div class="downloads__google-play">
+          <img alt="google-play button" class="google-play"
+            src="https://github.com/nikitavlaev/verstka/blob/master/ubereats/stores/pictures/en_badge_web_generic-cf6dad406f-1.png?raw=true">
+        </div>
+        <div class="downloads__straight-line"> </div>
       </div>
-      <div class="google-play">
-        <img
-          src="https://github.com/nikitavlaev/verstka/blob/master/ubereats/stores/pictures/en_badge_web_generic-cf6dad406f-1.png?raw=true">
+
+
+      <div class="footer-bottom__links">
+        <div class="footer-bottom__trademark">© 2017 Uber Technologies Inc.</div>
+        <div class="footer-bottom__privacy">Privacy</div>
+        <div class="footer-bottom__terms">Terms</div>
       </div>
-    </div>
-    <div class="straight-line-4"> </div>
-    <div class="container">
-      <div class="bottom-links container">
-        <div class="trademark">© 2017 Uber Technologies Inc.</div>
-        <div class="privacy">Privacy</div>
-        <div class="terms">Terms</div>
-      </div>
-      <div class="button-up block-with-centered-content">
-        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAxNiAyNiIgZmlsbD0ibm9u
+
+      <div class="footer__button-up">
+        <img alt="button with arrow up" class="button-up" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAxNiAyNiIgZmlsbD0ibm9u
         ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImFycm93Ij4KPHBh
         dGggaWQ9IlNoYXBlIiBkPSJNOC4wMTgyOSAwLjA0Mjg0MzJMOC4wNTI2NiAwLjAxMDI1MzlMMTUu
         Njc0MSA3LjI1NzU4TDE0LjA3NTQgOC43MDcxM0w4LjkyODU1IDMuODgzOTFWMjVINy4xNDI4NFYz
         Ljg1MjIyTDEuOTYyMDQgOC43MDcxM0wwLjM5OTUzNiA3LjI1NzU4TDguMDAzMTEgMC4wMTAyNTM5
         TDguMDE4NzMgMC4wNDI4NDMySDguMDE4MjlaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+Cjwvc3ZnPgo=">
       </div>
-    </div>
+    </section>
   </footer>
 </body>
 

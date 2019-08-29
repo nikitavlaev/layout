@@ -1,0 +1,6 @@
+@media screen and (min-width:768px) {
+  .meal-chosen-card {
+    mix-blend-mode: normal;
+    background: rgba(117, 117, 117, 0.04);
+  }
+}

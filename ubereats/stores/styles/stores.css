@@ -1,0 +1,31 @@
+@import "../../common-styles/footer/footer-all.css";
+@import "../../common-styles/header/header-all.css";
+@import "./middle/middle.css";
+@import "./main/main.css";
+@import "./search-console/search-console.css";
+@import "./search-console/__lens/lens.css";
+@import "./search-console/__string/string.css";
+@import "./search-console/__straight-line/straight-line.css";
+@import "./delivery-options-mobile/delivery-options-mobile.css";
+@import "./delivery-options-mobile/__when/when.css";
+@import "./delivery-options-mobile/__to/to.css";
+@import "./delivery-options-mobile/__time/time.css";
+@import "./delivery-options-mobile/__address/address.css";
+@import "./main-title/main-title.css";
+@import "./rest-container/rest-container.css";
+@import "./rest-container/__card/card.css";
+@import "./card/__txt/txt.css";
+@import "./card/__txt/_lvl1.css";
+@import "./card/__txt/_lvl2.css";
+@import "./card/__txt/_lvl3.css";
+@import "./card/card.css";
+@import "./card/card-img/card-img.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+html {
+  background-color: #f2f2f2;
+}

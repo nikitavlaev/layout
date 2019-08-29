@@ -1,0 +1,12 @@
+.meals__straight-line {
+  margin: 12px 0px 0px 135px;
+  width: 50px;
+  height: 1px;
+  background: #757575;
+}
+
+@media screen and (min-width:768px) {
+  .meals__straight-line {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+.footer-middle-container__links {
+  list-style-type: none;
+  padding-top: 39px;
+}
+
+@media screen and (min-width:768px) {
+  .footer-middle-container__links {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-middle-container__links {
+    padding-left: 97px;
+  }
+}
