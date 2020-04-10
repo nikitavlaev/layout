@@ -1,0 +1,19 @@
+.delivery-options {
+  font-weight: normal;
+  padding: 16px 0px 16px 121px;
+  height: 40px;
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .delivery-options {
+    padding: 16px 0px 16px 21px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .delivery-options {
+    padding: 16px 0px 16px 122px;
+  }
+}

@@ -1,0 +1,14 @@
+.language-select {
+  width: 173px;
+  height: 40px;
+  background-color: #3B3B3B;
+  border-radius: 2px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width:1200px) {
+  .language-select {
+    width: 227px;
+  }
+}

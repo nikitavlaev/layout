@@ -1,0 +1,17 @@
+.search-console__string {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #626262;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .search-console__string {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

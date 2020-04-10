@@ -1,0 +1,10 @@
+.language-select__arrow-down {
+  margin-left: 49px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width:1200px) {
+  .language-select__arrow-down {
+    margin-left: 103px;
+  }
+}

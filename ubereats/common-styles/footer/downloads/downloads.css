@@ -1,0 +1,5 @@
+.downloads {
+  display: flex;
+  flex-flow: row wrap;
+  width: inherit;
+}

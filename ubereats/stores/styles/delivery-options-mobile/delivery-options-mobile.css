@@ -1,0 +1,12 @@
+.delivery-options-mobile {
+  margin-top: 24px;
+  width: inherit;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width:768px) {
+  .delivery-options-mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__button-up {
+  width: 64px;
+  height: 64px;
+  background: #59BD5A;
+  border-radius: 2px;
+  padding: 19px 24px;
+  position: absolute;
+  right: 16px;
+  bottom: 32px;
+}
+
+@media screen and (min-width:768px) {
+  .footer__button-up {
+    width: 80px;
+    height: 80px;
+    padding: 27px 32px;
+    z-index: 10;
+  }
+}

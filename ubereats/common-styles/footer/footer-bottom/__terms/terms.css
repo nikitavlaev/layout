@@ -1,0 +1,15 @@
+.footer-bottom__terms {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+  .footer-bottom__terms {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-bottom__terms {
+    margin-left: 188px;
+  }
+}

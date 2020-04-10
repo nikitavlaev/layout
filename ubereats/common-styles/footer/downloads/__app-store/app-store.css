@@ -1,0 +1,16 @@
+.downloads__app-store {
+  padding-top: 24px;
+  margin-left: 31px;
+}
+
+@media screen and (min-width:768px) {
+  .downloads__app-store {
+    margin-left: 237px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .downloads__app-store {
+    margin-left: 340px;
+  }
+}

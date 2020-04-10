@@ -1,0 +1,5 @@
+@media screen and (min-width:768px) {
+  .meals-kinds__chosen-item {
+    color: #327430;
+  }
+}

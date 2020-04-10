@@ -1,0 +1,19 @@
+.footer {
+  background: #262626;
+  width: 320px;
+  position: relative;
+}
+
+@media screen and (min-width:768px) {
+  .footer {
+    width: 768px;
+    height: 552px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer {
+    width: 1124px;
+    height: 552px;
+  }
+}

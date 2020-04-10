@@ -1,0 +1,14 @@
+.main-title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #1D1D1D;
+  margin-bottom: 14px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width:768px) {
+  .main-title {
+    margin-top: 56px;
+  }
+}

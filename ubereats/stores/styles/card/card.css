@@ -1,0 +1,17 @@
+.card {
+  width: 312px;
+}
+
+@media screen and (min-width:768px) {
+  .card {
+    margin-bottom: 36px;
+    width: 308px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .card {
+    margin-bottom: 36px;
+    width: 308px;
+  }
+}

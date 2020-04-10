@@ -1,0 +1,13 @@
+.search-console__lens {
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .search-console__lens {
+    margin-top: 0px;
+    width: 22px;
+    height: 22px;
+  }
+}

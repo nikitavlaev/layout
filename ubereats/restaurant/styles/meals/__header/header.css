@@ -1,0 +1,15 @@
+.meals__header {
+  padding-top: 111px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .meals__header {
+    padding-left: 8px;
+    padding-top: 56px;
+    text-align: left;
+  }
+}

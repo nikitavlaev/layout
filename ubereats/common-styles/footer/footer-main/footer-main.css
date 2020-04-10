@@ -1,0 +1,21 @@
+.footer-main {
+  margin-top: 32px;
+  height: 862px;
+  padding-left: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .footer-main {
+    width: 752px;
+    height: 552px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-main {
+    width: 956px;
+    height: 552px;
+    padding-left: 81px;
+    margin-top: 0px;
+  }
+}

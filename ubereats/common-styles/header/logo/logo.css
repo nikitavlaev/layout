@@ -1,0 +1,10 @@
+.logo {
+  line-height: 11px;
+  padding: 31px 0px 30px 8px;
+}
+
+@media screen and (min-width:1200px) {
+  .logo {
+    padding-left: 81px;
+  }
+}

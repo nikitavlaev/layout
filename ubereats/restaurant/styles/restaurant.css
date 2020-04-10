@@ -1,0 +1,32 @@
+@import "../../common-styles/footer/footer-all.css";
+@import "../../common-styles/header/header-all.css";
+@import "./main-background/main-background.css";
+@import "./main-background/__src/src.css";
+@import "./rest-info/rest-info.css";
+@import "./rest-info/__txt-lvl1/txt-lvl1.css";
+@import "./rest-info/__txt-lvl2/txt-lvl2.css";
+@import "./rest-info/__del-time/del-time.css";
+@import "./nav/nav.css";
+@import "./meals-kinds/meal-kinds.css";
+@import "./meals-kinds/__item/item.css";
+@import "./meals-kinds/__chosen-item/chosen-item.css";
+@import "./meals/meals.css";
+@import "./meals/__header/header.css";
+@import "./meals/__straight-line/straight-line.css";
+@import "./meals/__container/container.css";
+@import "./meals/__card/card.css";
+@import "./meal-card/meal-card.css";
+@import "./meal-card/__img/img.css";
+@import "./meal-img/meal-img.css";
+@import "./meal-card/meal-chosen-card.css";
+@import "./col_spacing.css";
+@import "./meal-card/__text/text.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+html {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,18 @@
+.delivery-options__address {
+  width: 215px;
+  height: inherit;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  padding-top: 8px;
+  display: flex;
+}
+
+@media screen and (min-width:1200px) {
+  .delivery-options__address {
+    width: 290px;
+    font-size: 16px;
+  }
+}

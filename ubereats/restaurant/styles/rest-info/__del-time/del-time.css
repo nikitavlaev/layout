@@ -1,0 +1,25 @@
+.rest-info__del-time {
+  padding: 9px 16px;
+  margin: 16px 0px 0px 105px;
+  width: 98px;
+  height: 32px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #262626;
+  border-radius: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .rest-info__del-time {
+    float: left;
+    margin: 54px 0px 0px 105px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .rest-info__del-time {
+    margin: 54px 0px 0px 105px;
+  }
+}

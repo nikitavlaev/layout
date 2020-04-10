@@ -1,0 +1,15 @@
+.footer-bottom__privacy {
+  margin-right: 100px;
+}
+
+@media screen and (min-width:768px) {
+  .footer-bottom__privacy {
+    margin-left: 106px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer-bottom__privacy {
+    margin-left: 174px;
+  }
+}

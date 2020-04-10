@@ -1,0 +1,28 @@
+.rest-info {
+  position: absolute;
+  left: 8px;
+  top: 203px;
+  width: 308px;
+  height: 180px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .rest-info {
+    top: 152px;
+    width: 432px;
+    height: 204px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .rest-info {
+    left: 81px;
+    width: 389px;
+    height: 204px;
+  }
+}

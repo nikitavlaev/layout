@@ -1,0 +1,11 @@
+.downloads__google-play {
+  padding-top: 24px;
+  margin-left: 25px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width:1200px) {
+  .downloads__google-play {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,11 @@
+.google-play {
+  width: 124px;
+  height: 36px;
+}
+
+@media screen and (min-width:1200px) {
+  .google-play {
+    width: 120.66px;
+    height: 40px
+  }
+}

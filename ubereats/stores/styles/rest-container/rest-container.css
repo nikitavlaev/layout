@@ -1,0 +1,21 @@
+.rest-container {
+  max-height: 1490px;
+  /*approximately to fit 4 cards as requested*/
+  overflow-y: hidden;
+  width: 320px;
+  display: flex;
+}
+
+@media screen and (min-width:768px) {
+  .rest-container {
+    width: 768px;
+    max-height: none;
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .rest-container {
+    width: 962px;
+  }
+}

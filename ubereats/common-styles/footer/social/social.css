@@ -1,0 +1,9 @@
+.social {
+  margin-top: 32px;
+  width: 104px;
+  height: 59px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

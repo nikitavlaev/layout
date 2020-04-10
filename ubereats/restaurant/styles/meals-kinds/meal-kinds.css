@@ -1,0 +1,13 @@
+@media screen and (min-width:768px) {
+  .meals-kinds {
+    list-style-type: none;
+    padding-left: 8px;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .meals-kinds {
+    padding-left: 81px;
+  }
+}
